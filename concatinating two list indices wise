@@ -1,0 +1,13 @@
+l=[]
+x=int(input("enter the no of elements"))
+for i in range(x):
+    p=int(input("enter the elemnt"))
+    l.append(p)
+m=[]
+result=[]
+y=int(input("enter the no of elements"))
+for j in range(y):
+    q=int(input("enter the elemnt"))
+    m.append(q)
+result = [l[i] + m[i] for i in range(min(len(l), len(m)))]
+print(result)
