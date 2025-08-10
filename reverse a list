@@ -1,0 +1,8 @@
+n=int(input("enter thenno of elements"))
+l=[]
+for i in range(n):
+    x=int(input("enter the data"))
+    l.append(x)
+print(l)
+y=l[::-1]
+print(y)
